@@ -11,7 +11,6 @@ if(firstWord.length > secondWord.length){
 } else {
     longer = "entrambi";
    // console.log("le due parole sono lunghe uguali");
-    parolaLunga.innerHTML = (`Le parole sono lunghe uguali`);
 }
 
 parolaLunga.innerHTML = (`La parola più lunga è ${longer}`)
