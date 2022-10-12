@@ -4,7 +4,10 @@ let somma = 0;
 for( let i = 1; i <= 10; i++){
     userNum = Number(prompt(`Inserisci il numero ${i}`));
     console.log(userNum);
+    somma += userNum;
 }
+
+console.log("la somma è " + somma);
 
 
 
